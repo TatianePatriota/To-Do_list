@@ -60,7 +60,7 @@ input[type=checkbox] {
 }
 
 input[type=checkbox]:checked {
-    background-image: url(./img/check.png);
+    background-image: url(./icon/check.png);
     background-size: contain;
     opacity: 0.4;
     border: none;
