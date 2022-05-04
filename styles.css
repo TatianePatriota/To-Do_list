@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    background: linear-gradient(180deg, #FDC731,#FDA531);
+    overflow: hidden;
+}
+
+.container-1 {
+    text-align: center;
+    border-bottom: 1px solid rgb(51, 51, 51, 0.3);
+    color: #5F8190;
+}
+
+.title-1 {
+    font-weight: 700;
+}
+
+.title-2 {
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    background-color: #ffffff;
+    color: #5F8190;
+    box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1); 
+    margin: 0 auto;  
+    margin-top: 250px;
+    border-radius: 2px;
+    padding: 20px 40px 20px 40px;
+}
+
+.form-input {
+    padding-top: 30px;
+}
+
+label{
+   cursor: pointer;
+}
+
+input[type=checkbox] {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    border:1px solid #5F8190;;
+    border-radius: 30px;    
+    float: right;
+}
+
+input[type=checkbox]:checked {
+    background-image: url(./img/check.png);
+    background-size: contain;
+    opacity: 0.4;
+    border: none;
+    transition: all .5s;
+    transform: scale(1.8);
+}
+
+input[type=checkbox]:checked + label{
+    opacity: 0.4;
+    transition: .5s;
+    transform: scale(.9);
+    
+}
+
+
