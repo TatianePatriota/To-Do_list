@@ -72,6 +72,7 @@ input[type=checkbox]:checked + label{
     opacity: 0.4;
     transition: .5s;
     transform: scale(.9);  
+    text-decoration: line-through;
 }
 
 #text {
