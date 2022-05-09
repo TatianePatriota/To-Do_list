@@ -71,8 +71,15 @@ input[type=checkbox]:checked {
 input[type=checkbox]:checked + label{
     opacity: 0.4;
     transition: .5s;
-    transform: scale(.9);
-    
+    transform: scale(.9);  
 }
 
+#text {
+    color: #FDA531;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 25px;
+    text-align: center;
+    display: none;
+}
 
